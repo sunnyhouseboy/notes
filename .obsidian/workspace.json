@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Windows/3、Windows命令.md",
+                "file": "notes/git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3、Windows命令"
+              "title": "git"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Windows/3、Windows命令.md",
+                "file": "notes/git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "3、Windows命令 的大纲"
+              "title": "git 的大纲"
             }
           }
         ],
@@ -185,6 +185,8 @@
   },
   "active": "62eef63c37933c80",
   "lastOpenFiles": [
+    "新建 文本文档.txt",
+    "notes/git.md",
     "notes/Windows/img/Pasted image 20260125154916.png",
     "notes/Windows/img/Pasted image 20260125153844.png",
     "notes/Windows/img/Pasted image 20260125153818.png",
@@ -200,12 +202,10 @@
     "notes/Linux/报错/img/Pasted image 20260125121355.png",
     "notes/Linux/报错/img",
     "notes/Windows/img/Pasted image 20260124232800.png",
-    "notes/Windows/Pasted image 20260124232735.png",
     "img",
     "notes/Windows/img",
     "notes/MySQL/MySQL数据库管理系统基本使用.md",
     "notes/Windows",
-    "notes/未命名.md",
     "notes/Linux/实验/3、windows环境反弹shell.md",
     "notes/Linux/知识点/01、环境搭建.md",
     "notes/Linux/实验/2、网页后的“后门”——命令注入与反弹 Shell.md",
