@@ -9,7 +9,7 @@
       🌐 <b>个人网站:</b> <a href="[sunnyBoy's notes](https://sunnyhouseboy.github.io/notes/)">[sunnyBoy's notes](https://sunnyhouseboy.github.io/notes/)</a>
     </td>
     <td style="width: 20%; border: none; text-align: right; vertical-align: middle; padding: 0;">
-      <img src="../img/1.jpg" width="105" alt="个人照片" style="border-radius: 4px; object-fit: cover;">
+      <img src="https://api.dicebear.com/7.x/bottts/svg?seed=sunnyhouseboy" width="105" alt="个人照片" style="border-radius: 4px; object-fit: cover;">
     </td>
   </tr>
 </table>
