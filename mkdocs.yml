@@ -1,0 +1,10 @@
+site_name: sunnyBoy's notes
+site_author: sunnyBoy
+
+theme:
+  name: material
+  language: zh # 设置为中文
+  features:
+    - navigation.tabs # 开启顶部导航栏
+    - navigation.top  # 开启返回顶部按钮
+    - search.suggest  # 搜索建议
