@@ -1,0 +1,12 @@
+1、基本数据类型：ing,double, float等      引用数据类型：是指除了基本数据类型之外的所有类型
+2、this的三个用法：在构造方法中访问类中的属性；访问类中的其他方法；访问类中的其他构造方法
+3、当&运算符两侧的表达式的结果均为真时，整个运算结果才为真；当&&操作符第一个表达式为 false时，结果为 false，并且不再计算第二个表达式。
+4、Integer是int的包装类；int是基本数据类型。Integer变量必须实例化后才能使用；int变量不需要。
+   Integer实际是对象的引用，指向此new的Integer对象；int是直接存储数据值 。Integer的默认值是null；int的默认值是0。/
+5、. String 是只读字符串，也就意味着 String 引用的字符串内容是不能被改变的。
+ StringBuffer/StringBuilder 表示的字符串对象可以直接进行修改。
+StringBuilder 是 Java5 中引入的，它和 StringBuffer 的方法完全相同，区别在于它是在单线程环境下使用的， 因为它的所有方法都没有被 synchronized 修饰，因此它的效率理论上也比 StringBuffer 要高。
+String：对象定义后不可变，线程安全。
+StringBuffer：是线程安全的（对调用方法加入同步锁），执行效率较慢，适用于多线程下操作字符串缓冲区 大量数据。
+StringBuilder：是线程不安全的，适用于单线程下操作字符串缓冲区大量数据。
+如果程序不是多线程的，那么使用 StringBuilder 效率高于 StringBuffer。

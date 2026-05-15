@@ -1,0 +1,68 @@
+一、概念
+      多态是面向对象程序设计（OOP）的一个重要特征，指同一个实体同时具有多种形式，即同一个对象，在不同时刻，代表的对象不一样，指的是对象的多种形态。
+二、特点
+  1、多态的前提1：是继承
+  2、多态的前提2：要有方法的重写
+  3、父类引用指向子类对象,如：Animal a = new Cat();
+  4、多态中，编译看左边，运行看右边
+三、案例
+package cn.tedu.oop2;
+/*本类用作多态的入门案例*/
+public class TestDemo {
+    public static void main(String[] args) {
+        //6.创建“纯纯的”对象用于测试
+        Animal a = new Animal();
+        Cat c = new Cat();
+        Dog d = new Dog();
+        a.eat();//小动物Animal吃啥都行~调用的是父类自己的功能
+        c.eat();//小猫爱吃小鱼干~调用的是子类重写后的功能
+        d.eat();//小狗爱吃肉骨头~调用的是子类重写后的功能
+        /*2.父类对象不可以使用子类的特有功能*/
+        //a.jump();//报错，Animal类里并没有这个方法
+        //a.run();//报错，Animal类里并没有这个方法
+        c.jump();//小猫Cat跳的老高啦~,子类可以调用自己的功能
+        d.run();//小狗Dog跑的老快啦~,子类可以调用自己的功能
+
+        //7.创建多态对象进行测试
+        /*3.口诀1：父类引用指向子类对象
+        * 解释：创建出来的子类对象的地址值，交给父类类型的引用类型变量来保存*/
+        Animal a2 = new Cat();//Cat类对象的地址值交给父类型变量a2来保存
+        Animal a3 = new Dog();//Dog类对象的地址值交给父类型变量a3来保存
+        //8.测试多态对象
+        /*4.口诀2：编译看左边，运行看右边
+        * 解释：必须要在父类定义这个方法，才能通过编译，把多态对象看作是父类类型
+        *      必须要在子类重写这个方法，才能满足多态，实际干活的是子类*/
+        a2.eat();//小猫爱吃小鱼干~，多态对象使用的是父类的定义，子类的方法体
+    }
+}
+/*1.多态的前提：继承+重写*/
+//1.创建父类
+class Animal{
+    //3.创建父类的普通方法
+    public void eat(){
+        System.out.println("小动物Animal吃啥都行~");
+    }
+}
+//2.1创建子类1
+class Cat extends Animal{
+    //4.1添加重写的方法
+    public void eat(){
+        System.out.println("小猫爱吃小鱼干~");
+    }
+    //5.1添加子类的特有功能
+    public void jump(){
+        System.out.println("小猫Cat跳的老高啦~");
+    }
+}
+//2.2创建子类2
+class Dog extends Animal{
+    //4.2添加重写的方法
+    @Override
+    public void eat(){
+        System.out.println("小狗爱吃肉骨头~");
+    }
+    //5.2添加子类的特有功能
+    public void run(){
+        System.out.println("小狗Dog跑的老快啦~");
+    }
+}
