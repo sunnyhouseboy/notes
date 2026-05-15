@@ -1,0 +1,25 @@
+controller接收前台数据
+普通方式-请求参数名和Controller方法的参数名字一致
+对象方式-请求参数名和Controller方法中参数对象的属性名字一致
+自定义方法参数名-当请求参数名与方法参数名不一致时
+@RequestParam(“前端参数名”) 后台方法参数名
+HttpServletRequest方式
+request.getParameter(“前端参数名”);
+@PathVariable获取路径中的参数接收
+@RequestMapping("/user/{name}/{pwd}")
+@PathVariable 后台方法参数名
+@RequestBody-JSON方式接收
+前台接收controller数据
+$ {requestScope.属性名}
+$ {sessionScope.属性名}
+$ {自定义对象.属性名}
+$ {属性名}
+controller向前台传递数据
+HttpServletRequest对象传值：
+request.setAttribute(“属性名”,属性值)
+request.getSession().setAttribute(“属性名”,属性值)
+在方法中添加形参Model传值：
+model.addAttribute(“属性名”,属性值)------${对象名.属性名}
+前台向controller传递数据
+超链接href问号传值
+表单提交传值

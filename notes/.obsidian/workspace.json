@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机学习/机器学习/python基础/conda.md",
+                "file": "自我测验/答案/机器学习-实验.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conda"
+              "title": "机器学习-实验"
+            }
+          },
+          {
+            "id": "e7849d332bf850fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
             }
           },
           {
@@ -35,7 +49,8 @@
               "title": "1、numpy"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机学习/机器学习/python基础/conda.md",
+                "file": "index.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "conda 的大纲"
+              "title": "index 的大纲"
             }
           },
           {
@@ -191,6 +206,26 @@
           },
           {
             "id": "88497cb43c725b88",
+            "type": "leaf",
+            "state": {
+              "type": "journal-calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "journal-calendar"
+            }
+          },
+          {
+            "id": "ea83557101e3a634",
+            "type": "leaf",
+            "state": {
+              "type": "journal-calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "journal-calendar"
+            }
+          },
+          {
+            "id": "d9ea5c62c5b6b1e7",
             "type": "leaf",
             "state": {
               "type": "journal-calendar",
@@ -218,53 +253,54 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "7c07444fa612785c",
+  "active": "e7849d332bf850fe",
   "lastOpenFiles": [
+    "实验.md",
+    "index.md",
+    "学习计划.md",
+    "自我测验/答案/机器学习-报告.md",
+    "机器学习学习总结与异常流量检测方向初探.md",
+    "自我测验/我的答案.md",
+    "自我测验/答案/机器学习-知识.md",
+    "自我测验/任务/机器学习.md",
+    "自我测验/答案/机器学习-实验.md",
+    "02编程语言与开发/git命令的基本使用.md",
+    "02编程语言与开发/spring/正则表达式.txt",
+    "02编程语言与开发/spring/选择性扫描.png",
+    "02编程语言与开发/spring/新建文字文件 (1).txt",
+    "02编程语言与开发/spring/接口.txt",
+    "02编程语言与开发/spring/集合中注入类的属性.png",
+    "02编程语言与开发/spring/多态.txt",
+    "02编程语言与开发/spring/抽象类.txt",
+    "02编程语言与开发/spring/抽取集合内容作为公共部分.png",
+    "02编程语言与开发/spring/Spring概述.txt",
+    "02编程语言与开发/spring/jdbc.txt",
+    "02编程语言与开发/spring/Java基础.txt",
+    "02编程语言与开发/spring/bean工厂.png",
+    "02编程语言与开发/spring/bean的生命周期.png",
+    "02编程语言与开发/spring/Aop.txt",
+    "02编程语言与开发/spring/事务/解决办法.png",
+    "02编程语言与开发/spring/事务/脏读.png",
+    "02编程语言与开发/spring/事务/完全注解3.png",
+    "02编程语言与开发/spring/事务/完全注解1.png",
+    "02编程语言与开发/spring/事务/完全注解2.png",
+    "02编程语言与开发/spring/事务",
+    "02编程语言与开发/spring/Servlet&jsp/集合.md",
+    "02编程语言与开发/spring/Servlet&jsp/数据库中用户的权限列表.md",
+    "02编程语言与开发/spring/Servlet&jsp/会话控制Cookie和Session.md",
+    "02编程语言与开发/spring/Servlet&jsp/九大内置对象和四大作用域.md",
+    "02编程语言与开发/spring/Servlet&jsp/servlet和jsp的区别与联系.md",
+    "02编程语言与开发/spring/Servlet&jsp/Requset.md",
+    "02编程语言与开发/spring/Servlet&jsp/out.print和out.write的区别.md",
+    "02编程语言与开发/spring/Servlet&jsp/jsp.md",
+    "02编程语言与开发/spring/Servlet&jsp/Int与Integer的区别.md",
+    "02编程语言与开发/spring/Servlet&jsp/HTTP.md",
+    "02编程语言与开发/spring/Servlet&jsp/filter过滤器.md",
+    "02编程语言与开发/spring/Servlet&jsp/EL表达式.md",
+    "02编程语言与开发/spring/Servlet&jsp/cookie和session区别.md",
     "计算机学习/机器学习/sklearn/1、数据预处理与特征工程.md",
-    "计算机学习/机器学习/sklearn",
-    "计算机学习/机器学习/python基础",
     "计算机学习/机器学习/python基础/conda.md",
     "计算机学习/机器学习/python基础/pip.md",
-    "学习计划.md",
-    "计算机学习/机器学习",
-    "计算机学习/数据分析/知识/1、numpy.md",
-    "计算机学习/数据分析/知识/2、pandas.md",
-    "未命名 1.base",
-    "未命名.base",
-    "计算机学习/数据分析/实战/1、nsl-kdd.md",
-    "计算机学习/数据分析/知识/3、数据可视化.md",
-    "计算机学习/数据分析/实战",
-    "计算机学习/数据分析/知识",
-    "计算机学习/数据分析/nsl-kdd",
-    "计算机学习/网络安全/SQL注入/知识点/2、union联合注入.md",
-    "计算机学习/数据分析/知识/img/Pasted image 20260428171032.png",
-    "计算机学习/数据分析/知识/img/Pasted image 20260428170940.png",
-    "计算机学习/机器学习/AI核心概念大串联.md",
-    "日常学习/书籍/1、百年孤独.md",
-    "日常学习/书籍",
-    "full_concept_diagram.md",
-    "计算机学习/AI大模型",
-    "计算机学习/未命名.md",
-    "计算机学习/数据分析/知识/img/Pasted image 20260419173937.png",
-    "计算机学习/数据分析/知识/img/Pasted image 20260419172324.png",
-    "计算机学习/数据分析/知识/img/Pasted image 20260419172109.png",
-    "计算机学习/数据分析/知识/img/Pasted image 20260419171855.png",
-    "计算机学习/数据分析/知识/img/Pasted image 20260419171418.png",
-    "计算机学习/数据分析/知识/img/Pasted image 20260419164442.png",
-    "计算机学习/数据分析/知识/img/Pasted image 20260419164109.png",
-    "计算机学习/数据分析/知识/img/Pasted image 20260419164101.png",
-    "计算机学习/数据分析/数据/未命名.md",
-    "计算机学习/机器学习/轻量化模型/1、量化（Quantization）.md",
-    "计算机学习/机器学习/轻量化模型/3、剪枝（Pruning).md",
-    "计算机学习/机器学习/轻量化模型/2、知识蒸馏（Knowledge distillation）.md",
-    "科研/未命名.md",
-    "日常学习/历史/未命名.md",
-    "diary/2026-02-26.md",
-    "日常学习/唱歌.md",
-    "计算机学习/操作系统/Linux/知识点/11、Shell命令.md",
-    "计算机学习/操作系统/Linux/知识点/02、Linux基础命令.md",
-    "计算机学习/操作系统/Linux/知识点/06、权限管理.md",
-    "计算机学习/操作系统/Linux/知识点/04、Linux文件管理（下）.md",
     "未命名.canvas",
     "Untitled.canvas"
   ]
